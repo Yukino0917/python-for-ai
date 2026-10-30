@@ -24,6 +24,6 @@ class TextModel(BaseModel):
 model = TextModel(model_name="gpt-3.5-turbo", max_length=100)
 
 # Call method - notice no 'self' parameter needed
-result = model.process_text(text="Hello world")
+result = model.process_text(text="Hello world!!!!")
 print(result)  # Loading gpt-3.5-turbo...
-               # Processed: Hello world
+               # Processed: Hello world!!!!
